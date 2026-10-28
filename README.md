@@ -28,6 +28,8 @@ python main.py
 |---|---|
 | `kitaplar.csv` | Tüm kitaplar (UTF-8) |
 | `kitaplarim.db` | SQLite veritabanı (`kitaplar_tablosu`) |
+| `kitaplar.xlsx` | Excel formatında aynı veri |
+| `kitaplar.log` | Çalışma kaydı |
 
 Sütunlar: `Kitap`, `Fiyat`, `Stok`
 
@@ -41,6 +43,11 @@ Soumission,£50.10,In stock
 Sharp Objects,£47.82,In stock
 Sapiens: A Brief History of Humankind,£54.23,In stock
 ```
+
+## Sürüm Geçmişi
+
+- **v1:** Temel sürüm (`print` ile çıktı)
+- **v2:** Hata yönetimi, timeout, logging, tekrar temizleme ve Excel çıktısı eklendi
 
 ## Ayarlar
 
